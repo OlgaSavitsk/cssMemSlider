@@ -154,3 +154,21 @@
   #r5:checked ~ .navigation-container .titles .title-slider .t1 {
     margin-left: -100%;
   }
+
+  #r1:checked ~ .navigation-container .navigation .k1 .c1 {
+    background-color: chartreuse;
+  }
+
+  #r2:checked ~ .navigation-container .navigation .k1 .c2 {
+    background-color: chartreuse;
+  }
+
+  #r3:checked ~ .navigation-container .navigation .k1 .c3 {
+    background-color: chartreuse;
+  }
+  #r4:checked ~ .navigation-container .navigation .k1 .c4 {
+    background-color: chartreuse;
+  }
+  #r5:checked ~ .navigation-container .navigation .k1 .c5 {
+    background-color: chartreuse;
+  }
