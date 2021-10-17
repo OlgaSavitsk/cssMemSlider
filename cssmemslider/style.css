@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); 
+
 :root {
     --size: 10px
   }
@@ -12,13 +14,13 @@
   }
   
   .container {
-    height: 90vh; 
-    width: 95vw;
+    width: 1440px;
     margin: 20px auto; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    row-gap: 20px;
   }
   
   .slider {
@@ -29,22 +31,30 @@
   }
   
   .middle {
-   /*  position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     display: flex;
     flex-direction: column;
   }
   
   .slides {
     width: 500%;
-    height: 100%;
+    height: 800px;
     display: flex;
+  }
+
+  .navigation-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
   
   .navigation {
     display: flex;
+    justify-self: flex-end;
+  }
+
+  .slide-title {
+    width: 50%;
+    font-size: 24px;
   }
   
   .bar {
