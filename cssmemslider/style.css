@@ -172,3 +172,35 @@
   #r5:checked ~ .navigation-container .navigation .k1 .c5 {
     background-color: chartreuse;
   }
+
+  @media (max-width: 420px) {
+    .navigation-container {
+      flex-direction: column-reverse;
+      row-gap: 20px;
+    }
+
+    .container {
+      max-width: 420px;
+      width: 100%;
+      margin: 20px auto; 
+      padding: 0 20px;
+      row-gap: 30px;
+    }
+
+    .slides {
+      height: 280px;
+    }
+
+    .title-slider {
+      height: 50px;
+    }
+
+    .navigation {
+      justify-content: center;
+    }
+
+    .k1 {
+      width: 10%;
+    }
+
+  }
