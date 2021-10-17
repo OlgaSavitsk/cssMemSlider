@@ -24,8 +24,7 @@
   }
   
   .slider {
-    width: 100%;
-   height: 100%;
+    width: 80%;
     overflow: hidden;
     border-radius: 1rem;
   }
@@ -37,12 +36,12 @@
   
   .slides {
     width: 500%;
-    height: 50rem;
+    height: 35rem;
     display: flex;
   }
 
   .navigation-container {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
   }
@@ -107,12 +106,6 @@
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
-  }
-  
-  .slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
   }
 
   .k1 {
@@ -195,12 +188,20 @@
       row-gap: 2.5rem;
     }
 
+    .slider {
+      width: 100%;
+    }
+
     .slides {
       height: 20rem;
     }
 
     .title-slider {
       height: 4rem;
+    }
+
+    .navigation-container {
+      width: 100%;
     }
 
     .navigation {
@@ -210,5 +211,6 @@
     .k1 {
       width: 10%;
     }
+
 
   }
